@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Microsoft Logo</title>
+</head>
+<body>
+<canvas id="kite" height="300" width="300" style="border: solid 2px #CC0000"></canvas>
+<script type="text/javascript">
+var c = document.getElementById("kite");
+var ctx = c.getContext("2d");
+ctx.moveTo(150,30);
+ctx.lineTo(260,150);
+ctx.moveTo(150,30);
+ctx.lineTo(40,150);
+///-------------
+ctx.moveTo(260,150);
+ctx.lineTo(155,270);
+ctx.moveTo(155,270);
+ctx.lineTo(40,150);
+///--------------
+ctx.moveTo(150,30);
+ctx.lineTo(155,270);
+///--------------
+ctx.moveTo(200,295);
+ctx.lineTo(155,270);
+ctx.moveTo(155,270);
+ctx.lineTo(110,295);
+///--------------
+ctx.moveTo(110,295);
+ctx.lineTo(200,295);
+ctx.stroke();
+</script>
+<script type="text/javascript">
+var c = document.getElementById("kite")
+var ctx = c.getContext("2d")
+ctx.beginPath();
+ctx.arc(150,150,50,100, Math.PI*2);
+ctx.stroke();
+</script>
+</body>
+</html
